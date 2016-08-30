@@ -1,0 +1,2 @@
+# nagykero
+Blog for Soma
