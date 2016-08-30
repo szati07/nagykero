@@ -1,0 +1,16 @@
+/*
+Theme Name : Nagykero
+Author: BenMari
+Author URI : http://nagykero.com/
+Description : Theme for nagykero;
+Version: 1.0
+*/
+
+body{
+	background: red;
+	box-sizing: border-box;
+}
+
+html{
+	margin: 0 !important;
+}
