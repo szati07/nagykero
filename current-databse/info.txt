@@ -1,0 +1,7 @@
+Database:
+	user: nagykero
+	pwd: T2ZY6KTEq6uyzyNW
+
+Website:
+	user: nagykero-admin
+	pwd: @lL%MZhDa(bxnGxO2A
