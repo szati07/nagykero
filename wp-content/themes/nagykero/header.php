@@ -18,6 +18,17 @@
 			<h1 class="logo-container">
 				<a id="logo" href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
 			</h1>
-			<nav class ="main-navigation">sdsd</nav>
+			<nav class ="main-navigation">
+				<?php
+                    
+                $defaults = array(
+                    'container' => false,
+                    'theme_location' => 'header_navigation_menu',
+                    'menu_class' => 'header-navigation-menu'
+                );
+
+                wp_nav_menu($defaults);
+                ?>
+			</nav>
 		</div>
 	</header>	
