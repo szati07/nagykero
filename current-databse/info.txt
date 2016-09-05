@@ -3,5 +3,5 @@ Database:
 	pwd: T2ZY6KTEq6uyzyNW
 
 Website:
-	user: nagykero-admin
-	pwd: @lL%MZhDa(bxnGxO2A
+	user:nagykero
+	pwd: kKCT^go2r4YEo^n88F
