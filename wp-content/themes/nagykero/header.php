@@ -23,7 +23,7 @@
                     
                 $defaults = array(
                     'container' => false,
-                    'theme_location' => 'header_navigation_menu',
+                    'theme_location' => 'primary-menu',
                     'menu_class' => 'header-navigation-menu'
                 );
 

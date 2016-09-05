@@ -9,7 +9,7 @@
 				
 			<?php endwhile; else : ?>
 
-				<p><?php __e('Sorry, no results found.', 'nagykero_text_domain');?></p>
+				<p><?php __e('Sorry, no pagesfound.', 'nagykero_text_domain');?></p>
 
 			<?php endif; ?>
 		</div>
