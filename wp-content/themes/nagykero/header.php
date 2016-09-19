@@ -14,7 +14,7 @@
 		  </span>
 		</button>	
 
-		<div class="wrapper">
+		<div class="header-wrapper">
 			<h1 class="logo-container">
 				<a id="logo" href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
 			</h1>

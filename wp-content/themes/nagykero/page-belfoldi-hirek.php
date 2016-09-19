@@ -1,6 +1,6 @@
 <?php
 	/*
-		Template Name: Kulfoldi Hirek
+		Template Name: Belfoldi Hirek
 	*/
 ?>
 
@@ -23,7 +23,7 @@
 
 		<?php
 			$args = array(
-				'post_type' => 'kulfoldi_hirek'
+				'post_type' => 'belfoldi_hirek'
 				);
 			$query = new WP_Query($args);
 		?>
@@ -36,7 +36,7 @@
 				<a class="news-img" href="<?php the_permalink();?>">
 				<?php the_post_thumbnail('medium');?></a>
 				<h2><a class="news-title" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-				<p class="news-description"><?php the_field('short_description') ?></p>
+				<p class="news-description"><?php the_field('bf_short_description') ?></p>
 				<p class ="dots">
 					<strong>• • • •</strong>
 				</p>
