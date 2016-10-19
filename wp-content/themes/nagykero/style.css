@@ -25,6 +25,7 @@ Version: 1.0
 body{
 	box-sizing: border-box;
 	font-family: 'Raleway';
+	min-width: 350px;
 }
 
 a{
@@ -148,3 +149,58 @@ footer p{
 }
 
 /* End Of Single News Page Style*/
+
+
+/*MEDIA QUERIES*/
+
+
+/*Tablet View*/
+
+@media (min-width: 1024px){
+	/*Header*/
+	.hamburger{
+		display: none;
+	}
+
+	.logo-container{
+		float:left;
+	}
+
+	.main-navigation{
+		display: block;
+		float:right;
+		padding-top: 10px;
+	}
+
+	.main-navigation li {
+		display: inline-block;
+		padding-left: 60px;
+		margin-bottom:0;
+		padding-bottom: 0;
+		border-bottom: none;
+	}
+	/*End of header*/
+
+	/*Home Page Content*/
+
+	.home .front-page-primary section .news-post:nth-child(odd){
+		float:left;
+		max-width: 50%;
+	}
+	.home .front-page-primary section .news-post:nth-child(even){
+		float:right;
+		max-width: 50%;
+	}
+
+	.front-page-secondary{
+		clear:both;
+	}
+	.home .front-page-secondary section .news-post:nth-child(odd){
+		float:left;
+		max-width: 50%;
+	}
+	.home .front-page-secondary section .news-post:nth-child(even){
+		float:right;
+		max-width: 50%;
+	}
+}
