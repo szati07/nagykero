@@ -22,8 +22,12 @@
 		</section>
 
 		<?php
+
+			$num_posts = -1;
+			if( is_front_page() ) $num_posts = 5;
 			$args = array(
-				'post_type' => 'belfoldi_hirek'
+				'post_type' => 'belfoldi_hirek',
+				'posts_per_page' => $num_posts
 				);
 			$query = new WP_Query($args);
 		?>

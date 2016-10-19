@@ -38,6 +38,7 @@ header{
 
 .hamburger {
 	position: absolute;
+	outline: none;
 }
 
 .header-wrapper{

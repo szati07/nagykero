@@ -1,27 +1,4 @@
 <?php
-	/*
-		Template Name: Kulfoldi Hirek
-	*/
-?>
-
-<?php get_header();?>
-<div class ="wrapper">
-	<section>
-		<div>
-			<?php if( have_posts() ): while( have_posts() ) : the_post(); ?>
-				
-				<h1 class="page-title"><?php the_title(); ?></h1>
-				<p><?php the_content(); ?></p>
-				
-			<?php endwhile; else : ?>
-
-				<p><?php __e('Sorry, no pagesfound.', 'nagykero_text_domain');?></p>
-
-			<?php endif; ?>
-		</div>
-		</section>
-
-		<?php
 			
 			$num_posts = -1;
 			if( is_front_page() ) $num_posts = 5;
@@ -48,6 +25,4 @@
 			</div>
 		<?php endwhile; endif; wp_reset_postdata(); ?>
 		</section>
-	
-</div>
-<?php get_footer();?>
+		
